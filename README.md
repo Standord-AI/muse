@@ -16,7 +16,7 @@ This is a simple PHP framework for creating web applications. It is made for the
 
 ### Github
 
-1. Download the latest version of the framework from the [release page](https://github.com/museiam/muse-framework/releases).
+1. Download the latest version of the framework from the [release page](https://github.com/Kavirubc/muse-framework/releases).
 2. Extract the downloaded file.
 3. Copy the extracted folder to your web server.
 4. Rename the folder to `muse`.
@@ -38,9 +38,9 @@ composer require museiam/muse-framework
 
 ## Documentation
 
-The documentation is available at [muse-framework.com](https://muse-framework.com).
+The documentation is available at [muse-framework.com](https://github.com/Kavirubc/muse-framework/README.md).
 
 ## License
 
-The Muse-Framework is licensed under the [MIT License](https://github.com/museiam/muse-framework/blob/master/LICENSE).  
+The Muse-Framework is licensed under the [MIT License](https://github.com/Kavirubc/muse-framework/LICENSE).  
 Copyright (c) 2020 Muse-Framework

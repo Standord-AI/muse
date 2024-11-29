@@ -25,11 +25,11 @@ This is a simple PHP framework for creating web applications. It is made for the
 
 ### Composer
 
-1. Install the framework using [Composer](https://getcomposer.org/).
+1. Install the framework using [Composer](https://packagist.org/packages/kaviru/muse).
 2. Run the following command in your project directory:
 
 ```
-composer require museiam/muse-framework
+composer require kaviru/muse
 ```
 
 3. Rename the folder to `muse`.

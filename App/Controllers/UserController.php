@@ -3,10 +3,10 @@
 namespace App\Controllers;
 
 use PDO;
-use App\Database;
-use Core\Controller;
-use Core\DataHandling;
-use Core\ErrorHandling;
+use Kaviru\MuseCore\Database;
+use Kaviru\MuseCore\Controller;
+use Kaviru\MuseCore\DataHandling;
+use Kaviru\MuseCore\ErrorHandling;
 
 class UserController extends Controller
 {

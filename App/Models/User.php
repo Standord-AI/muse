@@ -2,7 +2,7 @@
 
 namespace App\Models;
 
-use Core\Database;
+use Kaviru\MuseCore\Database;
 
 class User extends Database
 {

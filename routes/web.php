@@ -1,6 +1,7 @@
 <?php
 
-use Core\Route;
+use Kaviru\MuseCore\Route;
+use App\Controllers\AdminController;
 use App\Controllers\PublicController;
 use App\Controllers\PostController;
 
@@ -14,11 +15,15 @@ use App\Controllers\PostController;
 # xamp based
 
 Route::name('muse', 'home');
+Route::name('muse/{id}', 'abc');
 Route::name('muse/contact', 'contact-us');
-Route::name('muse/posts/{id}', 'posts.index');
-Route::name('muse/posts/{title}/{id}', 'posts.show');
+Route::name('muse/admin/login', 'admin.login');
+Route::name('muse/admin/signup', 'admin.signup');
 
 Route::get('muse/', PublicController::class, 'index');
-Route::get('muse/contact', PublicController::class, 'contact');
-Route::get('muse/posts/{id}', PostController::class, 'indexPost');
-Route::get('muse/posts/{title}/{id}', PostController::class, 'showPost');
+Route::get('muse/{id}', AdminController::class, 'abc');
+Route::get('muse/admin/login', AdminController::class, 'loginGet');
+Route::post('muse/admin/login', AdminController::class, 'loginPost');
+
+Route::get('muse/admin/signup', AdminController::class, 'signupGet');
+Route::post('muse/admin/signup', AdminController::class, 'signupPost');

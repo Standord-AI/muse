@@ -3,10 +3,10 @@
 namespace App\Controllers;
 
 use PDO;
-use App\Database;
-use Core\Controller;
-use Core\DataHandling;
-use Core\ErrorHandling;
+use Kaviru\MuseCore\Database;
+use Kaviru\MuseCore\Controller;
+use Kaviru\MuseCore\DataHandling;
+use Kaviru\MuseCore\ErrorHandling;
 
 class PublicController extends Controller
 {
@@ -14,7 +14,8 @@ class PublicController extends Controller
     {
         $data = new DataHandling;
 
-        view('index.php');
+        echo "Hello World";
+        // view('index.php');
     }
 
     public function contact()

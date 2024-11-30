@@ -9,13 +9,8 @@
     ],
     "autoload": {
         "psr-4": {
-            "Core\\": "src/",
             "App\\": "App/"
-        },
-        "files": [
-            "src/helpers.php",
-            "src/render.php"
-        ]
+        }
     },
     "authors": [
         {
@@ -24,6 +19,7 @@
         }
     ],
     "require": {
-        "php": ">=8.0"
+        "php": ">=8.0",
+        "kaviru/muse-core": "^1.0"
     }
 }

@@ -1,6 +1,6 @@
 <?php
 
-use Core\ErrorHandling;
+use Kaviru\MuseCore\ErrorHandling;
 
 # Set the custom error handler
 register_shutdown_function(function () {
@@ -14,7 +14,7 @@ include_once __DIR__ . '/vendor/autoload.php';
 
 ob_start();
 
-require_once __DIR__ . '/src/site_data.php';
+require_once __DIR__ . '/vendor/kaviru/muse-core/src/site_data.php';
 require_once __DIR__ . '/routes/web.php';
 
 ErrorHandling::check_404();

@@ -2,25 +2,34 @@
 
 namespace App\Controllers;
 
-use PDO;
-use App\Database;
-use Core\Controller;
-use Core\DataHandling;
-use Core\ErrorHandling;
+use Kaviru\MuseCore\Models\AdminModel;
+use Kaviru\MuseCore\Controller;
+use mysqli;
 
 class AdminController extends Controller
 {
-    public function index()
+    private function getConnection()
     {
-        $data = new DataHandling;
-
-        view('admin/index.php');
+        return new mysqli('localhost', 'root', 'root', 'muse', 3306);
     }
 
-    public function login()
+    public function loginGet()
     {
-        $data = new DataHandling;
+        view('admin_login.php');
+    }
 
-        view('admin/login.php');
+    public function loginPost()
+    {
+
+    }
+
+    public function signupGet()
+    {
+        view('admin_signup.php');
+    }
+
+    public function signupPost()
+    {
+
     }
 }

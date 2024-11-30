@@ -4,8 +4,50 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "a0c5d35b869b375e289f8281ac319d79",
-    "packages": [],
+    "content-hash": "08edb71fe8269ff7e0a00f908e203380",
+    "packages": [
+        {
+            "name": "kaviru/muse-core",
+            "version": "V1.0.6",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/Kavirubc/muse-core.git",
+                "reference": "79eb300ee2f30fe83b9ef09cc3ad8551962ba4d2"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/Kavirubc/muse-core/zipball/79eb300ee2f30fe83b9ef09cc3ad8551962ba4d2",
+                "reference": "79eb300ee2f30fe83b9ef09cc3ad8551962ba4d2",
+                "shasum": ""
+            },
+            "type": "library",
+            "autoload": {
+                "files": [
+                    "src/helpers.php",
+                    "src/render.php"
+                ],
+                "psr-4": {
+                    "Kaviru\\MuseCore\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Kaviru Hapuarachchi",
+                    "email": "hapuarachchikaviru@gmail.com"
+                }
+            ],
+            "description": "Core of the Muse Framework.",
+            "support": {
+                "issues": "https://github.com/Kavirubc/muse-core/issues",
+                "source": "https://github.com/Kavirubc/muse-core/tree/V1.0.6"
+            },
+            "time": "2024-11-30T06:20:59+00:00"
+        }
+    ],
     "packages-dev": [],
     "aliases": [],
     "minimum-stability": "stable",

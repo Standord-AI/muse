@@ -2,6 +2,7 @@
 
 namespace App\Controllers;
 
+use App\Models\User;
 use PDO;
 use Kaviru\MuseCore\Database;
 use Kaviru\MuseCore\Controller;
@@ -14,14 +15,19 @@ class PublicController extends Controller
     {
         $data = new DataHandling;
 
-        echo "Hello World";
-        // view('index.php');
+        view('index.php');
     }
 
-    public function contact()
+    public function testDatabaseCreate()
     {
-        $data = new DataHandling;
+        // Example usage
+        $userModel = new User();
 
-        view('contact.php');
+        // Create a new user
+        $userModel->create([
+            'name' => 'John Doe',
+            'email' => 'john.doe4@example.com',
+            'password' => password_hash('secret', PASSWORD_BCRYPT)
+        ]);
     }
 }

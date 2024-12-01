@@ -8,11 +8,6 @@ use mysqli;
 
 class AdminController extends Controller
 {
-    private function getConnection()
-    {
-        return new mysqli('localhost', 'root', 'root', 'muse', 3306);
-    }
-
     public function loginGet()
     {
         view('admin_login.php');
@@ -30,6 +25,6 @@ class AdminController extends Controller
 
     public function signupPost()
     {
-
+        //
     }
 }

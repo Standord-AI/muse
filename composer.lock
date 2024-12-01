@@ -4,27 +4,27 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "08edb71fe8269ff7e0a00f908e203380",
+    "content-hash": "18df4fbe4636eafd6879db972cf6c5f7",
     "packages": [
         {
             "name": "kaviru/muse-core",
-            "version": "V1.0.6",
+            "version": "V2.0.4",
             "source": {
                 "type": "git",
                 "url": "https://github.com/Kavirubc/muse-core.git",
-                "reference": "79eb300ee2f30fe83b9ef09cc3ad8551962ba4d2"
+                "reference": "ee5b508fad33d6096e02c0b066369bd22a152210"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/Kavirubc/muse-core/zipball/79eb300ee2f30fe83b9ef09cc3ad8551962ba4d2",
-                "reference": "79eb300ee2f30fe83b9ef09cc3ad8551962ba4d2",
+                "url": "https://api.github.com/repos/Kavirubc/muse-core/zipball/ee5b508fad33d6096e02c0b066369bd22a152210",
+                "reference": "ee5b508fad33d6096e02c0b066369bd22a152210",
                 "shasum": ""
             },
             "type": "library",
             "autoload": {
                 "files": [
-                    "src/helpers.php",
-                    "src/render.php"
+                    "helpers.php",
+                    "bootloader.php"
                 ],
                 "psr-4": {
                     "Kaviru\\MuseCore\\": "src/"
@@ -43,9 +43,9 @@
             "description": "Core of the Muse Framework.",
             "support": {
                 "issues": "https://github.com/Kavirubc/muse-core/issues",
-                "source": "https://github.com/Kavirubc/muse-core/tree/V1.0.6"
+                "source": "https://github.com/Kavirubc/muse-core/tree/V2.0.4"
             },
-            "time": "2024-11-30T06:20:59+00:00"
+            "time": "2024-12-01T10:52:20+00:00"
         }
     ],
     "packages-dev": [],

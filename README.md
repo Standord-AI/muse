@@ -1,4 +1,4 @@
-# Muse-Framework
+# Muse Framework
 
 This is a simple PHP framework for creating web applications. It is made for the Muse-Book sharing project.
 

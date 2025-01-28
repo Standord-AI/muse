@@ -16,7 +16,7 @@ This is a simple PHP framework for creating web applications. It is made for the
 
 ### Github
 
-1. Download the latest version of the framework from the [release page](https://github.com/museiam/muse-framework/releases).
+1. Download the latest version of the framework from the [release page](https://github.com/Standord-AI/muse-core).
 2. Extract the downloaded file.
 3. Copy the extracted folder to your web server.
 4. Rename the folder to `muse`.
@@ -38,9 +38,9 @@ composer create-project standord/muse
 
 ## Documentation
 
-The documentation is available at [muse-framework.com](https://muse-framework.com).
+The documentation is available at [Standord-AI/muse-core](https://github.com/Standord-AI/muse-core/blob/main/README.md).
 
 ## License
 
-The Muse-Framework is licensed under the [MIT License](https://github.com/museiam/muse-framework/blob/master/LICENSE).  
-Copyright (c) 2020 Muse-Framework
+The Muse-Framework is licensed under the [MIT License](https://github.com/Standord-AI/muse-core/blob/main/LICENSE).  
+Copyright (c) 2025 Muse-Framework

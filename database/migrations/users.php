@@ -3,8 +3,8 @@
 require_once __DIR__ . '/../../src/site_data.php';
 include_once __DIR__ . '/../../vendor/autoload.php';
 
-use Kaviru\MuseCore\Database;
-use Kaviru\MuseCore\DataHandling;
+use Standord\MuseCore\Database;
+use Standord\MuseCore\DataHandling;
 
 $table_name = "users";
 

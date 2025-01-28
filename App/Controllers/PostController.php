@@ -2,7 +2,7 @@
 
 namespace App\Controllers;
 
-use Kaviru\MuseCore\Controller;
+use Standord\MuseCore\Controller;
 
 class PostController extends Controller
 {

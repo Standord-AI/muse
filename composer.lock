@@ -7,16 +7,16 @@
     "content-hash": "18df4fbe4636eafd6879db972cf6c5f7",
     "packages": [
         {
-            "name": "kaviru/muse-core",
+            "name": "standord/muse-core",
             "version": "V2.0.4",
             "source": {
                 "type": "git",
-                "url": "https://github.com/Kavirubc/muse-core.git",
+                "url": "https://github.com/Standordbc/muse-core.git",
                 "reference": "ee5b508fad33d6096e02c0b066369bd22a152210"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/Kavirubc/muse-core/zipball/ee5b508fad33d6096e02c0b066369bd22a152210",
+                "url": "https://api.github.com/repos/Standordbc/muse-core/zipball/ee5b508fad33d6096e02c0b066369bd22a152210",
                 "reference": "ee5b508fad33d6096e02c0b066369bd22a152210",
                 "shasum": ""
             },
@@ -27,7 +27,7 @@
                     "bootloader.php"
                 ],
                 "psr-4": {
-                    "Kaviru\\MuseCore\\": "src/"
+                    "Standord\\MuseCore\\": "src/"
                 }
             },
             "notification-url": "https://packagist.org/downloads/",
@@ -36,14 +36,14 @@
             ],
             "authors": [
                 {
-                    "name": "Kaviru Hapuarachchi",
-                    "email": "hapuarachchikaviru@gmail.com"
+                    "name": "Standord Hapuarachchi",
+                    "email": "hapuarachchistandord@gmail.com"
                 }
             ],
             "description": "Core of the Muse Framework.",
             "support": {
-                "issues": "https://github.com/Kavirubc/muse-core/issues",
-                "source": "https://github.com/Kavirubc/muse-core/tree/V2.0.4"
+                "issues": "https://github.com/Standordbc/muse-core/issues",
+                "source": "https://github.com/Standordbc/muse-core/tree/V2.0.4"
             },
             "time": "2024-12-01T10:52:20+00:00"
         }

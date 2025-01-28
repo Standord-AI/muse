@@ -4,10 +4,10 @@ namespace App\Controllers;
 
 use App\Models\User;
 use PDO;
-use Kaviru\MuseCore\Database;
-use Kaviru\MuseCore\Controller;
-use Kaviru\MuseCore\DataHandling;
-use Kaviru\MuseCore\ErrorHandling;
+use Standord\MuseCore\Database;
+use Standord\MuseCore\Controller;
+use Standord\MuseCore\DataHandling;
+use Standord\MuseCore\ErrorHandling;
 
 class PublicController extends Controller
 {

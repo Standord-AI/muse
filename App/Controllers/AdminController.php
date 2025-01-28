@@ -2,8 +2,8 @@
 
 namespace App\Controllers;
 
-use Kaviru\MuseCore\Models\AdminModel;
-use Kaviru\MuseCore\Controller;
+use Standord\MuseCore\Models\AdminModel;
+use Standord\MuseCore\Controller;
 use mysqli;
 
 class AdminController extends Controller

@@ -1,5 +1,5 @@
 {
-    "name": "kaviru/muse",
+    "name": "standord/muse",
     "description": "Simple PHP Framework.",
     "type": "project",
     "license": "MIT",
@@ -15,12 +15,16 @@
     },
     "authors": [
         {
+            "name": "Kenura Gunarathna",
+            "email": "kenuragunarathna@gmail.com"
+        },
+        {
             "name": "Kaviru Hapuarachchi",
             "email": "hapuarachchikaviru@gmail.com"
         }
     ],
     "require": {
         "php": ">=8.0",
-        "kaviru/muse-core": "^2.0"
+        "standord/muse-core": "^2.0"
     }
 }

@@ -1,6 +1,6 @@
 <?php
 
-use Kaviru\MuseCore\Route;
+use Standord\MuseCore\Route;
 use App\Controllers\AdminController;
 use App\Controllers\PublicController;
 

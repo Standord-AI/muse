@@ -29,7 +29,7 @@ This is a simple PHP framework for creating web applications. It is made for the
 2. Run the following command in your project directory:
 
 ```
-composer create-project kaviru/muse
+composer create-project standord/muse
 ```
 
 3. Rename the folder to `muse`.

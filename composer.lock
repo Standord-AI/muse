@@ -4,21 +4,24 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "18df4fbe4636eafd6879db972cf6c5f7",
+    "content-hash": "c4f6605d7ee333bfc234be27b175bce2",
     "packages": [
         {
             "name": "standord/muse-core",
-            "version": "V2.0.4",
+            "version": "V2.0.5",
             "source": {
                 "type": "git",
-                "url": "https://github.com/Standordbc/muse-core.git",
-                "reference": "ee5b508fad33d6096e02c0b066369bd22a152210"
+                "url": "https://github.com/Standord-AI/muse-core.git",
+                "reference": "589dd554ea48789eba7b90f0ff24355e7e37d498"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/Standordbc/muse-core/zipball/ee5b508fad33d6096e02c0b066369bd22a152210",
-                "reference": "ee5b508fad33d6096e02c0b066369bd22a152210",
+                "url": "https://api.github.com/repos/Standord-AI/muse-core/zipball/589dd554ea48789eba7b90f0ff24355e7e37d498",
+                "reference": "589dd554ea48789eba7b90f0ff24355e7e37d498",
                 "shasum": ""
+            },
+            "require": {
+                "php": ">=7.0"
             },
             "type": "library",
             "autoload": {
@@ -42,21 +45,21 @@
             ],
             "description": "Core of the Muse Framework.",
             "support": {
-                "issues": "https://github.com/Standordbc/muse-core/issues",
-                "source": "https://github.com/Standordbc/muse-core/tree/V2.0.4"
+                "issues": "https://github.com/Standord-AI/muse-core/issues",
+                "source": "https://github.com/Standord-AI/muse-core/tree/V2.0.5"
             },
-            "time": "2024-12-01T10:52:20+00:00"
+            "time": "2025-01-28T05:35:23+00:00"
         }
     ],
     "packages-dev": [],
     "aliases": [],
     "minimum-stability": "stable",
-    "stability-flags": [],
+    "stability-flags": {},
     "prefer-stable": false,
     "prefer-lowest": false,
     "platform": {
         "php": ">=8.0"
     },
-    "platform-dev": [],
+    "platform-dev": {},
     "plugin-api-version": "2.6.0"
 }

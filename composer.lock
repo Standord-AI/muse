@@ -8,7 +8,7 @@
     "packages": [
         {
             "name": "standord/muse-core",
-            "version": "V2.0.5",
+            "version": "V2.0.6",
             "source": {
                 "type": "git",
                 "url": "https://github.com/Standord-AI/muse-core.git",
@@ -46,7 +46,7 @@
             "description": "Core of the Muse Framework.",
             "support": {
                 "issues": "https://github.com/Standord-AI/muse-core/issues",
-                "source": "https://github.com/Standord-AI/muse-core/tree/V2.0.5"
+                "source": "https://github.com/Standord-AI/muse-core/tree/V2.0.6"
             },
             "time": "2025-01-28T05:35:23+00:00"
         }
